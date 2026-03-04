@@ -1,0 +1,53 @@
+.submission-Div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button.special{
+   margin-left: 1% !important;
+}
+
+.Slide-buttons{
+    display: flex;
+    width: 60%;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.Slide-Buttons{
+    margin: 0% !important;
+    background-color: white !important;
+    border-bottom: 5px solid black;
+    color: #F4385A;
+    border-radius: 0% !important;
+    font-size: larger;
+    width: auto;
+}
+
+.Slide-Buttons::checkmark{
+    color: #F4385A !important;
+}
+
+.Slide-Buttons:hover{
+    color: #F4385A;
+}
+
+.Line-tag{
+    margin: 0% !important;
+    width: 90%;
+}
+
+.Display-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.No_ItemBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0% !important;
+}
+

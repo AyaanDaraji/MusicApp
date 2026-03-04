@@ -1,0 +1,119 @@
+
+.Submit_Box{
+    display: flex;
+    height: 270px;
+    width: 100%;
+}
+
+.Submit_Box2{
+    display: flex;
+    height: 200px;
+    width: 100%;
+}
+
+.Submit_Box3{
+    display: flex;
+    align-items: center;
+    width: 76%;
+    height: 50px;
+    padding-bottom: 100px;
+}
+
+.upload_Music {
+  font-size: small;
+}
+
+.upload-icon {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  background-position: center;
+  border-radius: 15px;
+  border: 2px dashed red;
+  background-color: white;
+  padding: 10px;
+}
+
+.upload_Music.uploaded {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/876/876817.png);
+  background-size: cover;     
+  background-position: center;
+  background-color: gainsboro;
+  border-radius: 15px;
+  color: gainsboro;
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+}
+
+
+.Input-1{
+    width: 50%;
+}
+
+.Input-2{
+    width: 50%;
+}
+
+.Input-3{
+    width: 50%;
+}
+
+.Input-4{
+    width: 50%;
+}
+
+input{
+    border-radius: 10px;
+    border: none;
+    width: 90%;
+    height: 40px;
+    margin: 10px;
+    background-color: rgb(236, 234, 234);
+    padding-left: 10px;
+}
+
+button{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.button-SubmitArt{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+.file-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.file-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 70%;
+}
+
+
+.DeleteBtn1 {
+   height: 40px;
+   width: 150px !important;
+   border-radius: 10px;
+   background-color: red;
+   color: white;
+   border: none;
+   margin-left: 120% !important;
+}
+

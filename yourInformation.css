@@ -1,0 +1,81 @@
+.boxMain{
+    display: flex;
+}
+
+.YourInfo-Box1{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    background-size: cover;
+    background-position:center ;
+    display: flex;
+    border-radius: 15px;
+    background-color: rgb(206, 206, 206);
+}
+
+.upload-icon1{
+    width: 100%;
+    height: 100%;
+}
+
+.YourInfo-Box1-2 {
+    width: 80%;
+}
+
+.YourInfo-Box2{
+    width: 80%;
+}
+
+.YourInfo-Box3{
+    display: flex;
+    width: 76%;
+    margin-bottom: 10%;
+}
+
+.upload-icon-YourInfo{
+    height: 150px;
+    width: 150px;
+}
+
+.btn-YourInfo{
+    margin-left: 76.5% !important;
+    background-color: rgb(199, 196, 196);
+}
+
+.btn-YourInfo2{
+    background-color: red;
+    margin: 0% !important;
+}
+
+.btn-YourInfo3{
+    margin: 0% !important;
+    margin-top: 10px !important;
+    margin-left: 10px !important;
+}
+
+.btn-YourInfo4{
+    margin-left: 62% !important;
+    margin-top: 10px !important;
+    background-color: rgb(199, 196, 196);
+}
+
+.btn-Delete-YourPhoto{
+    border: 2px solid red;
+    color: red;
+    background-color: white;
+    margin: 0% !important;
+}
+
+.btn-Upload-YourPhoto{
+    background-color: #8774F9;
+    color: white;
+    margin: 0% !important;
+}
+
+.button-group {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

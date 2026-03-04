@@ -1,0 +1,120 @@
+html, body {
+  height: 100%;
+  margin:0px ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainContainer {
+  display: grid;
+  grid-template-columns: 0.5fr 4fr;
+  grid-template-rows: 170px auto;
+  color: black;
+}
+
+.Body {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  padding-left: 10px;
+}
+
+.Header-Main {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  display: flex;
+  align-items: center;
+}
+
+.Header {
+  border-radius: 30px;
+  background-color: #8774F9;
+  width: 85%;
+  height: 160px;
+  padding-left: 50px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px ;
+  color: white;
+}
+
+.imgTag {
+  margin-left: 50%;
+}
+
+.SideBar {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+  background-color: #F4385A;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+  border-radius: 30px;
+  padding-top: 50px;
+  height: 800px;
+}
+
+.SideBar a:hover {
+ background-color: #FCFCFC;
+ color: black;
+}
+
+.SideBar a {
+  position: relative;
+  padding: 15px;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.dark .mainContainer {
+  background: black;
+  color: #FCFCFC;
+}
+
+.dark .Body {
+  background: black;
+}
+
+.dark .SideBar {
+  background-color: #303030;
+}
+
+.toggle-Btn button {
+  all: unset;
+  border: 2px solid black;
+  border-radius:5px ;
+  padding: 5px;
+}
+
+.dark .toggle-Btn button {
+  border: 2px solid white;  
+}
+
+.toggle-Btn button:hover{
+  background-color: transparent !important;
+  color: inherit !important;
+}
+
+
+.side-link {
+  display: flex;
+  flex-direction: column;   
+  align-items: center;
+  text-decoration: none;
+  gap: 6px;                 
+  padding: 10px 0;
+  color: white;
+}
+
+.big_h1{
+  font-size: 3rem;
+}
+
+.big_p{
+  font-size: 1rem;
+}
+
+button:hover{
+  background-color: rgba(255, 0, 0, 0.753);
+  color: white;
+}

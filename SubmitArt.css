@@ -1,0 +1,79 @@
+body{
+    overflow-x: hidden;
+}
+
+.Submit_Box-Art{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    width: 100%; 
+}
+
+.Submit_Box3-Art{
+    display: flex;
+    align-items: center;
+    width: 76%;
+}
+
+hr{
+    width: 100%;
+}
+
+.Input-1-Art{
+    margin-bottom: 40px;
+    margin-top: 30px;
+    width: 50%;
+}
+
+.button-SubmitArt{
+    padding-left: 25px;
+    padding-right: 25px;
+    white-space: nowrap;
+    margin: 10px;
+}
+
+.Wrap{
+     white-space: nowrap;
+}
+
+.dark .Down-Box {
+  background-color: black;
+  width: 100%; 
+  color: white;             
+}
+
+.Down-Box1 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.upload_Art{
+    font-size: small;
+    margin: 0%;
+}
+
+
+.file-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.file-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 70%;
+}
+
+.DeleteBtn1 {
+   height: 40px;
+   width: 150px !important;
+   border-radius: 10px;
+   background-color: red;
+   color: white;
+   border: none;
+   margin-left: 120% !important;
+}

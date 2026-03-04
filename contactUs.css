@@ -1,0 +1,46 @@
+.ContactUs_Main{
+    display: flex;
+    padding-top: 10px;
+}
+
+.ContactUs-Box1{
+    width: 50%;
+    margin-top: 30px;
+}
+
+.ContactUs-Box2{
+    padding: 10px;
+    width: 50%;
+    margin-top: 30px;
+}
+
+.Map_Img{
+    width: 520px;
+    height: 200px;
+    margin-bottom: 22px;
+    border-radius: 10px;
+}
+
+.Input_box_big{
+    padding-bottom: 70px !important;
+    width: 86%;
+    margin: 0%;
+}
+
+td{
+    font-size: small;
+    padding-top: 10px;
+    padding-right: 10px;
+    color: grey;
+}
+
+.td-left{
+    font-weight: bold;
+    padding-right: 20px;
+    color: black !important;
+}
+
+button{
+    margin-left: 81% !important;
+    margin-top: 20px !important;
+}

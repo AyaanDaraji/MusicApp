@@ -1,0 +1,49 @@
+.card-mainBox {
+  width: 150px;
+  margin-top: 20px;
+  position: relative;
+}
+.album-card {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  background-color: #858585;
+  overflow: hidden;
+}
+
+.text_Card {
+  margin: 4% !important;
+}
+
+.Delete_ButtonCard {
+  margin: 0% !important;
+  color: black;
+}
+
+.menu-container {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+}
+
+.dropdown-menu {
+  top: 25px;
+  background: white;
+}
+
+.dropdown-menu button {
+  background: none;
+  padding: 10px;
+  width: 100%;
+}
+.album-image {
+  width: 100%;
+  height: 100%;
+}
+
+.art-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
